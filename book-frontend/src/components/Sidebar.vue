@@ -33,7 +33,7 @@ const route = useRoute();
 const menuItems = [
   { to: "/dashboard", label: "Dashboard", icon: "fas fa-tachometer-alt" },
   { to: "/books", label: "Quản lý Sách", icon: "fas fa-book" },
-  { to: "/readers", label: "Độc giả", icon: "fas fa-user-graduate" },
+  { to: "/readers", label: "Đọc giả", icon: "fas fa-user-graduate" },
   { to: "/employees", label: "Nhân viên", icon: "fas fa-user-tie" },
   { to: "/publishers", label: "Nhà xuất bản", icon: "fas fa-building" },
   { to: "/borrowing", label: "Mượn Sách", icon: "fas fa-exchange-alt" },

@@ -6,17 +6,17 @@
         <div class="card text-white bg-primary mb-3">
           <div class="card-header"><i class="fas fa-book"></i> Số sách</div>
           <div class="card-body">
-            <h4 class="card-title">{{ totalBooks }}</h4>
+            <h4 class="card-title text-center">{{ totalBooks }}</h4>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card text-white bg-success mb-3">
           <div class="card-header">
-            <i class="fas fa-user-circle"></i> Độc giả
+            <i class="fas fa-user-circle"></i> Đọc giả
           </div>
           <div class="card-body">
-            <h4 class="card-title">{{ totalReaders }}</h4>
+            <h4 class="card-title text-center">{{ totalReaders }}</h4>
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@
             <i class="fas fa-exchange-alt"></i> Số lượt mượn
           </div>
           <div class="card-body">
-            <h4 class="card-title">{{ totalBorrowings }}</h4>
+            <h4 class="card-title text-center">{{ totalBorrowings }}</h4>
           </div>
         </div>
       </div>
